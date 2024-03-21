@@ -1,0 +1,14 @@
+# Build the application
+FROM node AS build
+
+COPY . /src/
+
+WORKDIR /src/
+
+RUN yarn install
+RUN yarn build
+
+# Runs it
+FROM nginx:alpine AS runtime
+
+COPY --from=build /src/build/ /usr/share/nginx/html/
