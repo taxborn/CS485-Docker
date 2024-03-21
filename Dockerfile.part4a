@@ -1,0 +1,5 @@
+FROM python
+
+COPY env.sh /src/
+
+CMD /src/env.sh
