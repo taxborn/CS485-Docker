@@ -1,0 +1,15 @@
+2024-03-26 19:02:21,923 INFO Set uid to user 0 succeeded
+2024-03-26 19:02:21,924 INFO supervisord started with pid 7
+2024-03-26 19:02:22,937 INFO spawned: 'mysql' with pid 8
+2024-03-26 19:02:22,937 INFO spawned: 'nginx' with pid 9
+2024-03-26 19:02:22,938 INFO spawned: 'webapp' with pid 10
+2024-03-26 19:02:23,985 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-26 19:02:32,958 INFO success: mysql entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2024-03-26 19:02:33,152 WARN exited: webapp (exit status 1; not expected)
+2024-03-26 19:02:34,154 INFO spawned: 'webapp' with pid 189
+2024-03-26 19:02:44,281 WARN exited: webapp (exit status 1; not expected)
+2024-03-26 19:02:46,284 INFO spawned: 'webapp' with pid 204
+2024-03-26 19:02:56,412 WARN exited: webapp (exit status 1; not expected)
+2024-03-26 19:02:59,416 INFO spawned: 'webapp' with pid 220
+2024-03-26 19:03:09,546 WARN exited: webapp (exit status 1; not expected)
+2024-03-26 19:03:10,548 INFO gave up: webapp entered FATAL state, too many start retries too quickly

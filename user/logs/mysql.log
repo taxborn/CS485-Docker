@@ -1,0 +1,6 @@
+Seeding MySQL database from /src/script.sql.
+240326 19:02:22 mysqld_safe Logging to syslog.
+240326 19:02:22 mysqld_safe Starting mariadbd daemon with databases from /var/lib/mysql
+Running seed script, please wait...
+ERROR 2002 (HY000): Can't connect to local server through socket '/run/mysqld/mysqld.sock' (111)
+Database seed completed.
